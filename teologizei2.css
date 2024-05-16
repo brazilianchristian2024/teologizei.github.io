@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+body{
+    background-color: #012030;
+}
+
+nav{
+    width: 85%;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 2px;
+
+}  
+
+nav > a{
+          color: #34718b;
+          font-weight: bolder;
+          padding-left: 25px;
+          text-decoration: none;
+          
+}
+
+header > h1{
+            color: #347e3d;
+            font-family:fantasy;
+            text-align: center; 
+            font-size: 5em;
+            margin-bottom: 0px;
+            -webkit-text-stroke-width: 0.3px;
+            -webkit-text-stroke-color: white;
+}
+
+header > p{
+           font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+           font-size: 2em;
+           text-align: center;
+           margin-top: 0px;
+           margin-bottom: 70px;
+           color: #589960;
+}
+
+article{
+        background-color: rgb(194, 224, 191);
+        text-align: center;
+        border: 2px solid #229FB1;
+        border-radius: 10px;
+        width: 50%;
+        align-items: center;
+        margin-left: 325px;
+        color: black;
+        margin-top: 100px;
+  
+        
+}
+
+
+
+.foto{
+       text-align: center;
+       
+       
+}
+
+.video{
+       text-align: center;
+}
+
+article a{
+       text-decoration: none;
+       color: black;
+       
+}
+
+article a:hover{
+       color: #34718b;
+}
+   
+          
+   main > h1{
+         text-align: center;
+         color: #347e3d;
+         font-family: monospace;
+   }       
+
+main > article > h1{
+       font-family:monospace;
+       font-size: 2.1em;
+       
+       color: #012030;
+                   
+}
+
+main > article > p{
+                   font-family: monospace;
+                   font-size: 1.3em;
+                   line-height: 2em;
+                   text-decoration: none;
+}
+
+main.article.p#artigos{
+      font-size: 2em;
+}
+
+footer{
+       text-align: center;
+       color: #DAFDBA;
+}
+footer > p > a{
+      
+      text-decoration: none;
+      color: #DAFDBA;
+}
+
+footer p> a:hover{
+        color: white;
+    
+}
